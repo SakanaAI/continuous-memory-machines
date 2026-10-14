@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Claude
+.claude/
+
+# Environment
+.env
+
+# Pretrained checkpoints
+/models/backbones/pretrained/vit5/checkpoints/
+
+# References
+/references/
+/neurips_reviews/
+
+# Weights & Biases
+wandb/
+
+# Hydra outputs
+outputs/
+
+# Generated analysis artifacts
+*.csv
+*.gif
+
+AGENTS.md
+paper_workspace/
+/temp_out.md
+data/miniImageNet
+data/arc2d/arc-agi_concept_challenges.json
+data/arc2d/arc-agi_concept_solutions.json
+data/arc2d/arc-agi_evaluation_challenges.json
+data/arc2d/arc-agi_evaluation_solutions.json
+data/arc2d/arc-agi_training_challenges.json
+data/arc2d/arc-agi_training_solutions.json
+data/cifar_fs
+
+# Generated language-model datasets and tokenizer caches
+/data/huggingface/
+/data/wikitext103/

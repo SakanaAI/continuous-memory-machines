@@ -1,0 +1,19 @@
+models:
+  CMM: outputs/Maze/CMM/multirun/07-20_13-37-22.128485
+  CTM: outputs/Maze/CTM/multirun/07-20_13-42-59.872977
+  LSTM: outputs/Maze/LSTM/multirun/07-20_13-43-02.231016
+  FSRNN: outputs/Maze/FSRNN/multirun/09-07_05-28-08.924205
+  RNN: outputs/Maze/RNN/multirun/07-20_13-43-07.955595
+  DNC: outputs/Maze/DNC/multirun/07-21_13-03-16.726087
+  Transformer: outputs/Maze/Transformer/multirun/09-03_14-35-01.373832
+  RMC: outputs/Maze/RMC/multirun/09-06_02-54-20.354967
+  LSTM_CMM: outputs/Maze/LSTM_CMM/multirun/09-05_04-39-03.760267
+  NAMTM: outputs/Maze/NAMTM/multirun/09-08_03-57-01.426804
+  CTMTransformer: outputs/Maze/CTMTransformer/multirun/09-08_14-15-16.267647
+log_dirs:
+  FSRNN: outputs/Maze/FSRNN/multirun/09-08_03-53-22.027259
+  NAMTM: outputs/Maze/NAMTM/multirun/09-23_03-18-54.894514
+  CTMTransformer: outputs/Maze/CTMTransformer/multirun/09-23_03-18-49.676609
+final_epochs:
+  RMC:
+    2: 5075

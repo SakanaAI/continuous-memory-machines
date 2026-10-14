@@ -1,0 +1,14 @@
+Copy:
+  run: outputs/Copy/CMM/multirun/04-29_05-35-12.460740
+  epoch: 1000
+  seed: 1
+PrioritySort:
+  run: outputs/PrioritySort/CMM/multirun/04-28_07-49-39.338456
+  epoch: 1000
+  seed: 0
+Maze:
+  run: outputs/Maze/CMM/multirun/07-17_13-43-05.730871
+  epoch: 9000
+ImageNet100:
+  run: outputs/ImageNet100/CMM/multirun/07-20_07-13-31.893291
+  epoch: 25

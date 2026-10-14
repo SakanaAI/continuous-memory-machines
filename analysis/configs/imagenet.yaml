@@ -1,0 +1,16 @@
+models:
+  RMT: outputs/ImageNet100/RMT/multirun/09-17_09-20-55.966637
+  Transformer: outputs/ImageNet100/Transformer/multirun/09-03_14-35-01.268527
+  CMM: outputs/ImageNet100/CMM/multirun/07-20_07-13-31.893291
+  CTM: outputs/ImageNet100/CTM/multirun/07-20_07-13-36.853547
+  LSTM: outputs/ImageNet100/LSTM/multirun/07-20_07-13-50.635347
+  FSRNN: outputs/ImageNet100/FSRNN/multirun/09-07_05-20-36.491910
+  RNN: outputs/ImageNet100/RNN/multirun/07-20_07-13-56.405978
+  DNC: outputs/ImageNet100/DNC/multirun/07-20_07-14-02.070666
+  LSAM: outputs/ImageNet100/LSAM/multirun/07-20_07-14-14.711391
+  NAMTM: outputs/ImageNet100/NAMTM/multirun/07-20_07-14-21.190631
+  GDNStateTracking: outputs/ImageNet100/GDNStateTracking/multirun/09-09_14-54-24.365806
+  RMC: outputs/ImageNet100/RMC/multirun/07-20_07-14-32.969143
+  LSTM_CMM: outputs/ImageNet100/LSTM_CMM/multirun/07-20_07-14-35.783842
+  CTM_Matched: outputs/ImageNet100/CTM/multirun/09-24_07-40-11.895359
+  CTMTransformer: outputs/ImageNet100/CTMTransformer/multirun/09-18_00-34-25.079226

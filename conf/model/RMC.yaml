@@ -1,0 +1,15 @@
+# @package _global_
+
+model:
+  model: "RMC"
+  d_model: 256
+  mem_slots: 8
+  num_heads: 4
+  head_size: null
+  num_blocks: 1
+  gate_style: "unit"
+  forget_bias: 1.0
+  input_bias: 0.0
+  attention_mlp_layers: 2
+  key_size: null
+  dropout: 0.0

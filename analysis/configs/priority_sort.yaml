@@ -1,0 +1,31 @@
+length_generalization:
+  RMT: outputs/PrioritySort/RMT/multirun/09-18_00-27-34.693960
+  Transformer: outputs/PrioritySort/Transformer/multirun/09-05_06-30-28.534698
+  CMM: outputs/PrioritySort/CMM/multirun/07-24_05-31-11.503166
+  CTM_Matched: outputs/PrioritySort/CTM/multirun/07-24_05-31-12.621517
+  DNC: outputs/PrioritySort/DNC/multirun/09-03_07-00-23.925003
+ablations:
+  seeds:
+  - 0
+  - 1
+  transformer_depth:
+    dir: outputs/PrioritySort/CMM/multirun/07-24_02-02-39.642521
+    model: CMM
+    parameter: memory_transformer_layers
+    values:
+    - 1
+    - 2
+    - 4
+    - 8
+  ltm_tokens_ms5:
+    dir: outputs/PrioritySort/CMM/multirun/07-24_12-02-28.940877
+    model: CMM
+    parameter: num_long_term_memory_tokens
+    values:
+    - 2
+    - 4
+    - 8
+    - 16
+    - 32
+    - 64
+    - 128

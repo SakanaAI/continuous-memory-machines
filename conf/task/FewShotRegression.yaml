@@ -1,0 +1,27 @@
+# @package _global_
+
+task:
+  n_var: 12
+  train_length: 20
+  test_length: 20
+  input_noise: 0.1
+  task_mode: linear
+  dataset_size: 10000
+
+training:
+  epochs: 1000
+  batch_size: 64
+  learning_rate: 1e-4
+  max_grad_norm: 5
+  weight_decay: 0.0
+  use_scheduler: false
+
+evaluation:
+  evaluation_interval: 5
+
+model:
+  d_input: 256
+  d_model: 256
+  # Regression uses its own learned linear projection followed by ReLU.
+  backbone:
+    mode: vector

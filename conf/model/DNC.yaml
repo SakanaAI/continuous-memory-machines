@@ -1,0 +1,12 @@
+# @package _global_
+
+model:
+  model: "DNC"
+  d_model: 256
+  controller_type: "LSTM"
+  memory_n: 128
+  memory_m: 20
+  num_read_heads: 1
+  num_write_heads: 1
+  dropout: 0.0
+  clip_value: 20.0

@@ -1,0 +1,13 @@
+# @package _global_
+
+model:
+  model: "LSTM_CMM"
+  d_model: 256
+  dropout: 0.0
+  layer_norm: true
+  T_max: null
+  num_long_term_memory_tokens: 32
+  memory_transformer_layers: 1
+  num_heads: 4
+  memory_update_gate: false
+  memory_update_gate_init: 0.0

@@ -1,0 +1,53 @@
+defaults:
+  - _self_
+  - model: RNN
+  - task: Copy
+  - override hydra/launcher: basic
+
+# General options
+device: 0
+seed: 42
+max_parameters: null
+
+# Training hyperparameters
+training:
+  epochs: 100
+  batch_size: 512
+  learning_rate: 1e-4
+  max_grad_norm: 1
+  weight_decay: 0.0
+  warmup_epochs: 0
+  loss: "ce"
+  use_scheduler: false
+  compile: true
+  num_workers: 1
+
+# Evaluation hyperparameters
+evaluation:
+  episodes: 5
+  evaluation_interval: 5
+
+# Logging hyperparameters
+logging:
+  plot_interval: 10
+  wandb:
+    enabled: true
+    project: "cmm"
+    entity: null
+    tags: []
+
+# Checkpoint hyperparameters
+checkpoint:
+  enabled: true
+  checkpoint_every: 1000
+  load_checkpoint: false
+  path: null
+
+# Hydra configuration
+hydra:
+  job:
+    chdir: true
+  run:
+    dir: ./outputs/${hydra.runtime.choices.task}/${hydra.runtime.choices.model}/${now:%m-%d_%H-%M-%S}
+  sweep:
+    dir: ./outputs/${hydra.runtime.choices.task}/${hydra.runtime.choices.model}/multirun/${now:%m-%d_%H-%M-%S.%f}

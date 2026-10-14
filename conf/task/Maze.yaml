@@ -1,0 +1,50 @@
+# @package _global_
+
+task:
+  dataset: SakanaAI/mazes-large  # mazes-small (15x15), mazes-medium (19x19), mazes-large (39x39)
+  route_length: 100
+  out_dims: 500  # route_length * 5 action classes (Up, Down, Left, Right, Wait)
+  iterations: 50
+  curriculum_lookahead: 25
+
+training:
+  epochs: 9000
+  batch_size: 64
+  accumulation_steps: 1  # Microbatches per optimizer update
+  learning_rate: 1e-4
+  max_grad_norm: 1
+  weight_decay: 0.0
+  loss: "maze"
+  use_scheduler: false
+  ema:
+    enabled: true
+    beta: 0.995
+    update_every: 10
+    update_after_step: 100
+
+evaluation:
+  evaluation_interval: 5
+
+max_parameters: 10000000
+
+checkpoint:
+  enabled: true
+  checkpoint_every: 500
+
+model:
+  d_input: 64
+  d_model: 2048
+  dropout: 0.1
+  synapse_type: unet
+  synapse_depth: 16
+  backbone:
+    type: resnet
+    arch: resnet34
+    mode: patches
+    pretrained: false
+    freeze: false
+    d_model: 64  # unused for resnet
+    num_blocks: 2  # resnet34-2: 39x39 -> 10x10 = 100 tokens
+    kernel_size: 3  # unused for resnet
+    pool: true  # initial maxpool (CTM default)
+    num_heads: 16

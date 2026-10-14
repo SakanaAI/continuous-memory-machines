@@ -1,0 +1,162 @@
+copy:
+  models:
+    RMT: outputs/Copy/RMT/multirun/09-17_08-36-17.129417
+    Transformer: outputs/Copy/Transformer/multirun/07-25_08-53-53.494888
+    CMM: outputs/Copy/CMM/multirun/04-29_05-35-12.460740
+    CTM: outputs/Copy/CTM/multirun/04-26_06-02-12.336232
+    LSTM: outputs/Copy/LSTM/multirun/04-26_06-02-16.173174
+    FSRNN: outputs/Copy/FSRNN/multirun/09-07_02-51-36.397303
+    RNN: outputs/Copy/RNN/multirun/04-26_06-02-19.957091
+    DNC: outputs/Copy/DNC/multirun/04-27_00-22-59.404123
+    LSAM: outputs/Copy/LSAM/multirun/04-26_06-02-29.688272
+    NAMTM: outputs/Copy/NAMTM/multirun/04-26_06-02-35.186502
+    GDNStateTracking: outputs/Copy/GDNStateTracking/multirun/09-09_14-53-30.513901
+    RMC: outputs/Copy/RMC/multirun/04-29_05-35-32.388727
+    LSTM_CMM: outputs/Copy/LSTM_CMM/multirun/04-29_05-35-40.076142
+    CTMTransformer: outputs/Copy/CTMTransformer/multirun/07-24_01-58-50.937456
+    CTM_Matched: outputs/Copy/CTM/multirun/07-24_01-58-53.983106
+associative_recall:
+  models:
+    RMT:
+    - outputs/AssociativeRecall/RMT/multirun/09-17_08-36-30.143432
+    Transformer:
+    - outputs/AssociativeRecall/Transformer/multirun/07-25_08-54-08.808853
+    CMM:
+    - outputs/AssociativeRecall/CMM/multirun/04-29_04-54-16.783735
+    CTM:
+    - outputs/AssociativeRecall/CTM/multirun/04-27_13-32-36.609571
+    LSTM:
+    - outputs/AssociativeRecall/LSTM/multirun/04-27_13-32-43.404503
+    FSRNN:
+    - outputs/AssociativeRecall/FSRNN/multirun/09-07_02-52-11.137049
+    RNN:
+    - outputs/AssociativeRecall/RNN/multirun/04-27_13-32-51.188414
+    DNC:
+    - outputs/AssociativeRecall/DNC/multirun/04-27_13-33-04.359098
+    LSAM:
+    - outputs/AssociativeRecall/LSAM/multirun/04-27_13-33-11.604608
+    NAMTM:
+    - outputs/AssociativeRecall/NAMTM/multirun/04-27_13-33-17.635607
+    GDNStateTracking:
+    - outputs/AssociativeRecall/GDNStateTracking/multirun/09-09_14-53-43.962678
+    RMC:
+    - outputs/AssociativeRecall/RMC/multirun/04-29_04-55-10.453444
+    LSTM_CMM:
+    - outputs/AssociativeRecall/LSTM_CMM/multirun/04-29_04-55-20.307065
+    CTMTransformer:
+    - outputs/AssociativeRecall/CTMTransformer/multirun/07-24_04-12-48.791000
+    CTM_Matched:
+    - outputs/AssociativeRecall/CTM/multirun/07-24_04-12-53.290436
+priority_sort:
+  models:
+    RMT:
+    - outputs/PrioritySort/RMT/multirun/09-17_08-36-19.700686
+    Transformer:
+    - outputs/PrioritySort/Transformer/multirun/07-25_08-53-58.152792
+    CMM:
+    - outputs/PrioritySort/CMM/multirun/04-28_07-49-39.338456
+    CTM:
+    - outputs/PrioritySort/CTM/multirun/04-28_07-49-42.830636
+    LSTM:
+    - outputs/PrioritySort/LSTM/multirun/04-25_12-50-02.779556
+    FSRNN:
+    - outputs/PrioritySort/FSRNN/multirun/09-07_02-51-40.364334
+    RNN:
+    - outputs/PrioritySort/RNN/multirun/04-25_12-50-07.227140
+    DNC:
+    - outputs/PrioritySort/DNC/multirun/04-26_02-02-32.495531
+    LSAM:
+    - outputs/PrioritySort/LSAM/multirun/04-26_02-02-36.735417
+    NAMTM:
+    - outputs/PrioritySort/NAMTM/multirun/04-25_12-50-23.478506
+    GDNStateTracking:
+    - outputs/PrioritySort/GDNStateTracking/multirun/09-09_14-53-35.638465
+    RMC:
+    - outputs/PrioritySort/RMC/multirun/04-29_04-59-37.375402
+    LSTM_CMM:
+    - outputs/PrioritySort/LSTM_CMM/multirun/04-29_04-59-44.650627
+    CTMTransformer:
+    - outputs/PrioritySort/CTMTransformer/multirun/07-24_04-12-33.363556
+    CTM_Matched:
+    - outputs/PrioritySort/CTM/multirun/07-24_04-12-36.124184
+parity:
+  models:
+    RMT: outputs/Parity/RMT/multirun/09-17_08-36-25.500727
+    CMM: outputs/Parity/CMM/multirun/07-25_05-08-14.825112
+    CTM: outputs/Parity/CTM/multirun/09-05_07-56-43.753121
+    CTM_Matched: outputs/Parity/CTM/multirun/07-25_05-08-18.275139
+    LSTM: outputs/Parity/LSTM/multirun/09-05_07-56-15.998591
+    FSRNN: outputs/Parity/FSRNN/multirun/09-07_02-52-05.528309
+    RNN: outputs/Parity/RNN/multirun/07-25_05-08-23.138869
+    DNC: outputs/Parity/DNC/multirun/09-05_07-56-20.490267
+    LSAM: outputs/Parity/LSAM/multirun/09-05_07-56-24.753667
+    NAMTM: outputs/Parity/NAMTM/multirun/09-05_07-56-29.783755
+    GDNStateTracking: outputs/Parity/GDNStateTracking/multirun/09-08_06-51-51.688492
+    RMC: outputs/Parity/RMC/multirun/09-05_07-56-32.339505
+    LSTM_CMM: outputs/Parity/LSTM_CMM/multirun/09-05_07-56-36.076982
+    CTMTransformer: outputs/Parity/CTMTransformer/multirun/09-05_07-56-40.371382
+    Transformer: outputs/Parity/Transformer/multirun/07-25_05-08-34.713126
+regression_linear_k20:
+  models:
+    CTM_Matched:
+    - outputs/FewShotRegression/CTM/multirun/09-10_08-11-04.889608
+    CTMTransformer:
+    - outputs/FewShotRegression/CTMTransformer/multirun/09-10_08-11-03.617825
+    RMT:
+    - outputs/FewShotRegression/RMT/multirun/09-17_08-47-02.269185
+    FSRNN:
+    - outputs/FewShotRegression/FSRNN/multirun/09-07_03-48-10.488262
+    Transformer:
+    - outputs/FewShotRegression/Transformer/multirun/07-25_05-19-11.569059
+    CMM:
+    - outputs/FewShotRegression/CMM/multirun/04-28_15-06-33.041030
+    CTM:
+    - outputs/FewShotRegression/CTM/multirun/04-28_15-06-35.159789
+    LSTM:
+    - outputs/FewShotRegression/LSTM/multirun/04-27_00-40-44.066133
+    RNN:
+    - outputs/FewShotRegression/RNN/multirun/04-27_00-40-45.097605
+    DNC:
+    - outputs/FewShotRegression/DNC/multirun/04-27_00-40-50.767522
+    LSAM:
+    - outputs/FewShotRegression/LSAM/multirun/04-27_00-40-53.854763
+    NAMTM:
+    - outputs/FewShotRegression/NAMTM/multirun/04-27_00-40-57.521099
+    GDN:
+    - outputs/FewShotRegression/GDN/multirun/04-29_00-16-32.026549
+    RMC:
+    - outputs/FewShotRegression/RMC/multirun/04-29_04-48-00.416795
+    LSTM_CMM:
+    - outputs/FewShotRegression/LSTM_CMM/multirun/04-28_15-06-45.600167
+regression_linear_k10:
+  models:
+    CTM_Matched:
+    - outputs/FewShotRegression/CTM/multirun/09-10_08-11-12.736935
+    CTMTransformer:
+    - outputs/FewShotRegression/CTMTransformer/multirun/09-10_08-11-09.665279
+    RMT:
+    - outputs/FewShotRegression/RMT/multirun/09-17_08-47-12.178685
+    FSRNN:
+    - outputs/FewShotRegression/FSRNN/multirun/09-07_03-48-21.682881
+    Transformer:
+    - outputs/FewShotRegression/Transformer/multirun/07-25_05-19-38.448427
+    CMM:
+    - outputs/FewShotRegression/CMM/multirun/04-28_15-08-39.312437
+    CTM:
+    - outputs/FewShotRegression/CTM/multirun/04-28_15-08-43.079249
+    LSTM:
+    - outputs/FewShotRegression/LSTM/multirun/04-28_15-08-48.905988
+    RNN:
+    - outputs/FewShotRegression/RNN/multirun/04-28_15-08-55.118538
+    DNC:
+    - outputs/FewShotRegression/DNC/multirun/04-28_15-09-11.943431
+    LSAM:
+    - outputs/FewShotRegression/LSAM/multirun/04-28_15-09-21.793719
+    NAMTM:
+    - outputs/FewShotRegression/NAMTM/multirun/04-28_15-09-25.163080
+    GDN:
+    - outputs/FewShotRegression/GDN/multirun/04-29_00-16-42.375079
+    RMC:
+    - outputs/FewShotRegression/RMC/multirun/04-29_04-48-09.816964
+    LSTM_CMM:
+    - outputs/FewShotRegression/LSTM_CMM/multirun/04-28_15-09-34.927812

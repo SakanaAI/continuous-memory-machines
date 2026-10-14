@@ -1,0 +1,26 @@
+# @package _global_
+
+task:
+    bits_per_vector: 6
+    num_vectors_per_item: 3
+    min_items: 2
+    max_items: 6
+    num_samples: 6400
+
+training:
+    epochs: 200
+    batch_size: 32
+    learning_rate: 1e-3
+    max_grad_norm: 50
+    weight_decay: 0.0
+
+evaluation:
+    evaluation_interval: 10
+
+model:
+    d_input: 64
+    backbone:
+        type: linear
+        mode: vector
+        pretrained: false
+        freeze: false

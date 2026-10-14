@@ -1,0 +1,13 @@
+# @package _global_
+
+model:
+  model: "CTMTransformer"
+  d_model: 256
+  memory_length: 138
+  dropout: 0.0
+  memory_transformer_layers: 1
+  num_heads: 4
+  synapse_type: mlp
+  synapse_depth: 8
+  memory_update_gate: false
+  memory_update_gate_init: 0.0

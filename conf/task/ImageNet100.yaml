@@ -1,0 +1,33 @@
+# @package _global_
+
+task:
+  dataset: ilee0022/ImageNet100
+  out_dims: 100
+  iterations: 25
+
+training:
+  epochs: 25
+  batch_size: 64
+  learning_rate: 1e-4
+  max_grad_norm: 1
+  weight_decay: 1e-4
+  loss: "ce"
+  num_workers: 7
+
+evaluation:
+  evaluation_interval: 5
+
+checkpoint:
+  enabled: true
+  checkpoint_every: 5
+
+model:
+  dropout: 0.2
+  d_input: 384
+  synapse_depth: 4
+  backbone:
+    type: vit5
+    mode: patches
+    pretrained: true
+    freeze: true
+    num_heads: 4

@@ -1,0 +1,10 @@
+# @package _global_
+
+model:
+  model: "FSRNN"
+  d_model: 256
+  fast_layers: 2
+  d_slow: null  # Defaults to d_model, including during max_parameters search
+  dropout: 0.0
+  layer_norm: true
+  T_max: null

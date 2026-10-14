@@ -1,0 +1,28 @@
+# @package _global_
+
+task:
+    copy_dim: 10
+    copy_min_sequence_length: 1
+    copy_max_sequence_length: 10
+    copy_delay: 60
+    copy_binary: false
+    copy_eval_sequence_lengths: []
+    num_samples: 6400
+
+training:
+    epochs: 100
+    batch_size: 128
+    learning_rate: 1e-3
+    max_grad_norm: 5
+    weight_decay: 0.0
+
+evaluation:
+    evaluation_interval: 10
+
+model:
+    d_input: 64
+    backbone:
+        type: linear
+        mode: vector
+        pretrained: false
+        freeze: false

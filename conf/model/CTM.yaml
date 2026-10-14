@@ -1,0 +1,9 @@
+# @package _global_
+
+model:
+  model: "CTM"
+  d_model: 256
+  memory_length: 10
+  dropout: 0.0
+  synapse_type: mlp
+  synapse_depth: 8

@@ -1,0 +1,29 @@
+# @package _global_
+
+task:
+    value_width: 8
+    num_input_items: 20
+    # Set both fields to train one model on variable input lengths. A single
+    # length is selected per batch, so no padding or boundary cue is added.
+    train_min_num_input_items: null
+    train_max_num_input_items: null
+    num_output_items: 16
+    num_samples: 6400
+
+training:
+    epochs: 200
+    batch_size: 32
+    learning_rate: 1e-3
+    max_grad_norm: 50
+    weight_decay: 0.0
+
+evaluation:
+    evaluation_interval: 10
+
+model:
+    d_input: 64
+    backbone:
+        type: linear
+        mode: vector
+        pretrained: false
+        freeze: false

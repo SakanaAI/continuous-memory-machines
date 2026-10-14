@@ -1,0 +1,14 @@
+# @package _global_
+
+model:
+  model: "CMM"
+  d_model: 256
+  memory_length: 10
+  dropout: 0.0
+  memory_transformer_layers: 1
+  num_long_term_memory_tokens: 32
+  synapse_type: mlp
+  synapse_depth: 8
+  num_heads: 4
+  memory_update_gate: false
+  memory_update_gate_init: 0.0
